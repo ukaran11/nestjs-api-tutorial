@@ -1,0 +1,9 @@
+-> To start the docker container in background
+  docker compose up dev-db -d
+
+-> To get all the running containers
+  docker ps
+
+-> To get the container logs 
+  - Copy the container ID from the docker ps command
+  docker logs ${containerId}
