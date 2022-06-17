@@ -1,0 +1,7 @@
+Prisma instructions
+
+-> To run migrations
+  npx prisma migrate dev
+
+-> To run prisma studio
+  npx prisma studio
